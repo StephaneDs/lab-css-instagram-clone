@@ -2,9 +2,110 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
-*/
+
+
+
+.phone-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  */
+ {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #f5f6f8;
+}
+
+.button {
+  background: linear-gradient(#6690b1, #41759e);
+  color: white;
+  border-color: #335f84;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 350;
+  position: relative;
+  left: 180px;
+  bottom: 25px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100px;
+}
+
+.blue {
+  height: 300%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(#306088 50%, #f5f6f8 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4%;
+  padding-left: 7%;
+}
+
+.header-brand {
+  position: relative;
+  left: 75px;
+  top: 20px;
+}
+
+.home {
+  width: 25px;
+  height: auto;
+  position: relative;
+  right: 8px;
+}
+li {
+  list-style: none;
+}
+.download {
+  display: flex;
+  position: relative;
+  bottom: 380px;
+  left: 550px;
+}
+
+.main {
+  position: relative;
+  bottom: 400px;
+  left: 500px;
+  width: 35%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255) 40%,
+    rgba(0, 0, 0, 0)
+  );
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+h1 {
+  color: #1c5380;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+  color: #41759e;
+  position: relative;
+  bottom: 320px;
+  font-weight: 600;
+}
+li {
+  margin-left: 2em;
+}
+#copy-right {
+  color: #b5b5b5;
 }
